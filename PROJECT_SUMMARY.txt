@@ -224,9 +224,6 @@ sudo journalctl -u neurodoor -f
 4. **Maintenance**: Regular face encoding updates
 5. **Backup**: Implement backup power for reliability
 
-## 📄 License
-
-MIT License - See LICENSE file
 
 ## 🎯 Use Cases
 
