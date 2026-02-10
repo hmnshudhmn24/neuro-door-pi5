@@ -1,0 +1,53 @@
+# NeuroDoor-Pi5 Configuration
+
+# Database
+database:
+  path: data/neurodoor.db
+
+# Camera
+camera:
+  index: 0
+  width: 640
+  height: 480
+
+# Face Recognition
+recognition:
+  threshold: 0.6
+  liveness_detection: true
+  anti_spoofing: true
+
+# Security
+security:
+  face_recognition_threshold: 0.6
+  max_failed_attempts: 3
+  lockout_duration: 300
+  two_factor_required: false
+  unlock_duration: 5
+  auto_lock: true
+  enforce_time_rules: true
+
+# Hardware
+hardware:
+  lock_pin: 17
+  status_led_green: 22
+  status_led_red: 23
+  buzzer_pin: 24
+
+# AI Engine
+ai:
+  learning_enabled: true
+  anomaly_detection: true
+
+# Alerts
+alerts:
+  email:
+    enabled: false
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    from: neurodoor@example.com
+    recipients:
+      - admin@example.com
+  
+  sms:
+    enabled: false
+    provider: twilio

@@ -1,0 +1,28 @@
+# Core Dependencies
+opencv-python>=4.8.0
+face-recognition>=1.3.0
+dlib>=19.24.0
+numpy>=1.21.0
+
+# Hardware
+RPi.GPIO>=0.7.1
+
+# Web Dashboard
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+
+# Alerts
+twilio>=8.5.0
+
+# Configuration
+PyYAML>=6.0
+
+# Database
+# SQLite3 included with Python
+
+# Utilities
+Pillow>=10.0.0
+python-dateutil>=2.8.2
+
+# Testing
+pytest>=7.4.0
