@@ -1,8 +1,7 @@
-# NeuroDoor-Pi5 🚪🤖
+# Neuro Door Pi5 🚪🤖
 
 An AI-assisted smart door access control system designed for Raspberry Pi 5. Combines computer vision with adaptive security logic to manage secure access dynamically through facial recognition and intelligent decision rules.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9+-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%205-red.svg)
 
@@ -722,44 +721,3 @@ pytest --cov=src tests/
 python3 tests/performance_test.py
 ```
 
-## 🤝 Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) file
-
-## ⚠️ Disclaimer
-
-This system is designed for access control and security purposes. It should be used in compliance with local privacy laws and regulations. The developers are not responsible for misuse or privacy violations. Always inform users that facial recognition is in use and obtain necessary consents.
-
-## 🙏 Acknowledgments
-
-- face_recognition library by Adam Geitgey
-- OpenCV community
-- Raspberry Pi Foundation
-- Security and privacy researchers
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/neurodoor-pi5/issues)
-- **Documentation**: [Wiki](https://github.com/yourusername/neurodoor-pi5/wiki)
-- **Email**: support@neurodoor.example.com
-
-## 🗺️ Roadmap
-
-- [ ] Mobile app (iOS/Android)
-- [ ] Cloud backup option
-- [ ] Multi-door support
-- [ ] Integration with home automation
-- [ ] Voice recognition
-- [ ] Advanced analytics dashboard
-- [ ] Visitor management system
-- [ ] Integration with access card systems
-- [ ] Blockchain-based audit trail
-- [ ] AI-powered threat detection
-
----
-
-Made with 🔒 for secure and intelligent access control
